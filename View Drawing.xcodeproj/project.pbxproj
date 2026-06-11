@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A100000100000000000000D3 /* DesignReviewKit in Frameworks */ = {isa = PBXBuildFile; productRef = A100000100000000000000D2 /* DesignReviewKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B65806CF2FD9A07E0001234E /* View Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A100000100000000000000D3 /* DesignReviewKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "View Drawing";
 			packageProductDependencies = (
+				A100000100000000000000D2 /* DesignReviewKit */,
 			);
 			productName = "View Drawing";
 			productReference = B65806CF2FD9A07E0001234E /* View Drawing.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = B65806C62FD9A07E0001234E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A100000100000000000000D1 /* XCLocalSwiftPackageReference "DesignReviewKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B65806D02FD9A07E0001234E /* Products */;
 			projectDirPath = "";
@@ -270,13 +279,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
@@ -312,13 +321,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
@@ -345,6 +354,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A100000100000000000000D1 /* XCLocalSwiftPackageReference "DesignReviewKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = DesignReviewKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A100000100000000000000D2 /* DesignReviewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignReviewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B65806C72FD9A07E0001234E /* Project object */;
 }
